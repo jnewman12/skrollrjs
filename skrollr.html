@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Skrollr.Js Example
+	</title>
+	<meta charset="utf-8">
+    <meta content="initial-scale=1, minimum-scale=1, width=device-width, user-scalable=0" name=
+    "viewport">
+    <meta content=
+    "Skrollr.js is a cool way to simulate 3D animations, transitions, and effects."
+    name="description">
+    <!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/skrollr.css">
+	<!-- jquery loaded on top so skrollr gets it -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<!-- bootstrap through cdn -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<!-- font awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- my font choices -->
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Montserrat|Oswald' rel='stylesheet' type='text/css'>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div id="slides-container">   
+  <div id="skrollr-body">   
+	<div id="slides"
+		    data-0="transform:translate(0%,0%);"
+		    data-50p=""
+		    data-200p="transform:translate(0%,-50%);"
+		    data-250p=""
+		    data-350p="transform:translate(-50%,-50%);"
+		    data-400p=""
+		    data-500p="transform:translate(-50%,0%);">
+		 
+        <div id="slide-1" class="slide">
+        	<div class="caption-main"
+        	    data-10p="opacity: 1; transform:translate(0px,0px);"
+			    data-60p="opacity: 1; transform:translate(0px,0px);"
+			    data-100p="opacity: 0; transform:translate(0px,-100%);"
+			    data-anchor-target="#slide-1">
+			   <br/>
+			   <br/>
+			  <div class="intro">
+			    <div class="container">
+			      <div class="col-lg-12" data-10p="opacity:1;">
+			        <h1 style="font-family: 'Lobster', cursive !important; color:black !important;">Skrollr.js</h1>
+			      </div>  
+			      <div class="row text-center">
+			        <div class="col-lg-12">
+					    <h3 style="color:black;">A site utilizing <a href="https://github.com/Prinzhorn/skrollr" target="_blank">Skrollr.js</a>. 
+					    All Images are courtesy of Pixden, Unsplash, and Google. 
+					    </h3>
+					</div>
+					</div>
+				</div>	
+			  </div>	    
+            </div>
+
+        </div>
+        <div id="slide-2" class="slide div-head wow">
+            <div class="caption"
+             data-150p="opacity: 0; transform:translate(0px,0px);"
+             data-200p="opacity: 0; transform:translate(0px,0px);"
+             data-250p="opacity: 0; transform:translate(0px,0px);"
+             data-anchor-target="#slide-2">
+            </div>
+            <div class="container">
+
+            	  <div class="col-md-4" data-top-bottom="opacity:0; transform:translate(0px,0px);"
+            	    data-210p="opacity:1;transform:translate(0px,0px);">
+            	        <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Desktop Experiences</h2>
+				          <p class="services-text">Skrollr lets you transform elements to create an <em>experience</em> for users.</p>
+                        </div>
+
+                         <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-arrows-v fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Veritcal Scrolling</h2>
+				          <p class="services-text">Simply adjust your transform properties, and create depth perception when viewing.</p>
+                        </div>
+                      </div>  
+
+
+	            	  <div class="col-md-4">
+	            		<figure class="image-features wow bounceIn animated animated" data-wow-offset="120" data-wow-duration="1.5s">
+						  <img src="images/iphone5_white.png" alt="iphone">
+					    </figure>
+	            	  </div>
+
+            	  <div class="col-md-4" data-top-bottom="opacity:0; transform:translate(0px,0px);"
+            	      data-210p="opacity:1; transform:translate(0px,0px);"> 
+            	     <div class="services-info-text" style="padding-top:15px;">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Mobile Ready</h2>
+				          <p class="services-text">By simply turning off skrollr through javascript, you can format your page to still look great on mobile.</p>
+                        </div>
+                         <div class="services-info-text">
+				         <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-arrows-h fa-stack-1x fa-inverse"></i>
+				         </span>
+				          <h2 class="services-heading">Horizontal Scrolling</h2>
+				          <p class="services-text">The next slide is horizontal scrolling. Check it out!!</p>
+                        </div>  
+            	  </div>
+
+            </div>
+        </div>
+        <div id="slide-3" class="slide">
+        	<div class="caption"
+			    data-250p="opacity: 0; transform:translate(300px,0px);"
+			    data-300p="opacity: 1; transform:translate(0px,0px);"
+			    data-anchor-target="#slide-3">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-4">
+			        	<h1 class="slide-3-title">Slide in Objects</h1>
+			        	<hr class="primary">
+			        	<br/>
+			        	<p class="slide-3-text">
+			        		When using skrollr, elements don't become visible until you want them to. And when they are visible, create cool effects like tweaking the viewports, opacity, or your transform:translate() properties.
+			        	</p>
+			        </div>
+			        <div class="col-md-8">
+			          <img src="images/iphone5_two.png">
+			        </div>
+			      </div>    
+            </div>
+          </div>
+        </div>
+
+        <div id="slide-4" class="slide">
+        	<div class="caption"
+			    data-430p="opacity: 0;"
+			    data-500p="opacity: 1;"
+			    data-anchor-target="#slide-4">
+			    <div class="container">
+			      <div class="row">
+			        <div class="col-md-4 text-center">
+				    	<img src="images/iphones_skew.png">
+				    </div> 
+			        <div class="col-md-8 text-center">
+				        <h1>Dramatic Calls of Action</h1>
+				          <div><hr class="transition"></div>
+				        
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Unique</h3>
+				              <p>Use Skrollr to be creative and give users a different viewing style.</p>
+				            </div>
+				         </div>  
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Responsive</h3>
+				              <p>Skrollr lets you take care of mobile and desktop users.</p>
+				            </div>
+				         </div>
+
+				        <div class="col-sm-4">
+				         <div class="service-list">
+				            <div class="service-list-col1">  <span class="fa-stack fa-3x">
+				                <i class="fa fa-circle fa-stack-2x text-primary"></i>
+				                <i class="fa fa-check-circle fa-stack-1x fa-inverse"></i>
+				         </span></i> </div>
+				            <span class="service-list-col2">
+				              <h3>Flexible</h3>
+				              <p>Whether it's for a whole site, or just a couple elements, it's ready for anything.</p>
+				            </div>
+				         </div>
+				         <br/>
+				         <br/>
+				        <div class="col-lg-12 transition text-center">
+				        	 <div class="button-transition">
+							  <a class="btn-xl" href="https://github.com/jnewman12/skrollr" target="_blank">See The Code</a>
+							</div>
+				        </div> 
+				    </div> 
+				</div>      	
+            </div>
+        </div>
+     </div>   
+</div>
+
+ 
+
+
+<script src="js/skrollr.min.js"></script>
+<script type="text/javascript">
+    var s = skrollr.init();
+		if (s.isMobile()) {
+		    s.destroy();
+       };
+</script>	
+
+</body>
+</html>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
